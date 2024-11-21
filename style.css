@@ -1,5 +1,22 @@
+:root {
+  --branding-color: hsla(0, 0%, 0%, 1);
+  --secondary-color: hsla(0, 0%, 100%, 1);
+}
+
 h1,
 h2 {
   font-family: "Anton";
   font-weight: bold;
+}
+
+li {
+  display: inline;
+  list-style: none;
+}
+li a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
 }
